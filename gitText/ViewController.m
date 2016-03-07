@@ -30,6 +30,9 @@
     
     NSLog(@"第四天打印");
     
+    NSLog(@"修改邮箱地址");
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {
