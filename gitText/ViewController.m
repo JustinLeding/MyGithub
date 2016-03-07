@@ -33,7 +33,39 @@
     NSLog(@"修改邮箱地址");
     
     
+    /*
+     
+        创建新的分支，添加视图空间
+     
+     
+     */
+    
+    self.view.backgroundColor = [UIColor redColor];
+    
+    UIButton * button = [UIButton buttonWithType: UIButtonTypeCustom];
+    button.backgroundColor = [UIColor greenColor];
+    button.frame = CGRectMake(50, 50, 300, 200);
+    [button addTarget:self action:@selector(buttonAction:) forControlEvents:UIControlEventTouchUpInside];
+    
+    
+    
+    [self.view addSubview:button];
+    
+    
+    
+    
+    
+    
+    
 }
+
+-(void)buttonAction:(UIButton *)btn{
+
+    NSLog(@"分支创建完成");
+    
+
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
