@@ -27,6 +27,9 @@
     
     NSLog(@"第三天打印");
     
+    
+    NSLog(@"第四天打印");
+    
 }
 
 - (void)didReceiveMemoryWarning {
