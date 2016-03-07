@@ -53,6 +53,17 @@
     
     
     
+    //创建label
+    UILabel * label = [[UILabel alloc] initWithFrame:CGRectMake(50, 300, 300, 50)];
+    label.text =  @"你好" ;
+    label.textColor = [UIColor  orangeColor];
+    label.backgroundColor = [UIColor blackColor];
+    //位置默认居中
+    label.textAlignment = NSTextAlignmentCenter;
+    label.tag = 100;    //默认100
+    label.numberOfLines = 0;
+    [self.view addSubview:label];
+    
     
     
     
